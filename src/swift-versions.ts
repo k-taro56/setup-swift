@@ -5,7 +5,7 @@ import { System, OS } from "./os";
 const VERSIONS_LIST: [string, OS[]][] = [
   ["5.9.2", [OS.MacOS, OS.Ubuntu]],
   ["5.9.1", [OS.MacOS, OS.Ubuntu]],
-  ["5.9", [OS.MacOS, OS.Ubuntu]],
+  ["5.9", OS.all()],
   ["5.8.1", [OS.MacOS, OS.Ubuntu]],
   ["5.8", [OS.MacOS, OS.Ubuntu]],
   ["5.7.3", [OS.MacOS, OS.Ubuntu]],
