@@ -542,7 +542,7 @@ const os_1 = __nccwpck_require__(1855);
 const VERSIONS_LIST = [
     ["5.9.2", [os_1.OS.MacOS, os_1.OS.Ubuntu]],
     ["5.9.1", [os_1.OS.MacOS, os_1.OS.Ubuntu]],
-    ["5.9", [os_1.OS.MacOS, os_1.OS.Ubuntu]],
+    ["5.9", os_1.OS.all()],
     ["5.8.1", [os_1.OS.MacOS, os_1.OS.Ubuntu]],
     ["5.8", [os_1.OS.MacOS, os_1.OS.Ubuntu]],
     ["5.7.3", [os_1.OS.MacOS, os_1.OS.Ubuntu]],
