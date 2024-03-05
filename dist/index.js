@@ -405,6 +405,7 @@ function run() {
                 case system.OS.Windows:
                     yield windows.install(version, platform);
             }
+            core.debug("Checking swift version");
             const current = yield (0, get_version_1.getVersion)();
             if (current === version) {
                 core.setOutput("version", version);
